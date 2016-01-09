@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-ruby '2.2.0'
-
+ruby '2.2.3'
+gem 'pry-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 
@@ -36,6 +36,7 @@ end
 group :test do
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'pry-rails'
 end
 
 # Use ActiveModel has_secure_password
